@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>about.png</file>
+        <file>baud.png</file>
+        <file>fuzzy.png</file>
+        <file>help.png</file>
+        <file>lupa.png</file>
+        <file>modo.png</file>
+        <file>pid.png</file>
+        <file>play.png</file>
+        <file>salir.png</file>
+        <file>stop.png</file>
+        <file>supervision.png</file>
+        <file>X.png</file>
+        <file>COM.png</file>
+        <file>historial.png</file>
+        <file>opciones.png</file>
+        <file>fichero.png</file>
+        <file>reenvio.png</file>
+        <file>loadmuestra.png</file>
+    </qresource>
+</RCC>

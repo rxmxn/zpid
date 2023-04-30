@@ -1,0 +1,16 @@
+INPUT(
+./debug\main.o
+./debug\xcontrolador.o
+./debug\grafica.o
+./debug\curve.o
+./debug\pidprofesional.o
+./debug\file.o
+./debug\puertoserie.o
+./debug\rs232.o
+./debug\loadedfile.o
+./debug\ayuda.o
+./debug\moc_xcontrolador.o
+./debug\moc_loadedfile.o
+./debug\moc_ayuda.o
+./debug\qrc_myResource.o
+);

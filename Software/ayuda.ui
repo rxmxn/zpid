@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ayuda</class>
+ <widget class="QDialog" name="Ayuda">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>986</width>
+    <height>667</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ayuda</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="myResource.qrc">
+    <normaloff>:/help.png</normaloff>:/help.png</iconset>
+  </property>
+  <widget class="QTabWidget" name="tabMenu">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>181</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tabIndice">
+    <attribute name="title">
+     <string>Indice</string>
+    </attribute>
+    <widget class="QListWidget" name="listIndice">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>171</width>
+       <height>621</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>Controladores</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Herramientas</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Menú</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Microcontrolador</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Modo Control</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Modo Supervisión</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>-Tipo de procesamiento</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tabBuscar">
+    <attribute name="title">
+     <string>Buscar</string>
+    </attribute>
+    <widget class="QPushButton" name="btnBuscar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>171</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Realizar búsqueda</string>
+     </property>
+     <property name="shortcut">
+      <string>Return</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listBuscar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>50</y>
+       <width>171</width>
+       <height>571</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="edtBuscar">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWebView" name="webView">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>781</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="url">
+    <url>
+     <string>about:blank</string>
+    </url>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>10</y>
+     <width>20</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebView</class>
+   <extends>QWidget</extends>
+   <header>QtWebKit/QWebView</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="myResource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

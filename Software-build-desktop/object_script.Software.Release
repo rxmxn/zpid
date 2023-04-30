@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\xcontrolador.o
+./release\grafica.o
+./release\curve.o
+./release\pidprofesional.o
+./release\file.o
+./release\puertoserie.o
+./release\rs232.o
+./release\loadedfile.o
+./release\ayuda.o
+./release\moc_xcontrolador.o
+./release\moc_loadedfile.o
+./release\moc_ayuda.o
+./release\qrc_myResource.o
+);
