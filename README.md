@@ -1,3 +1,5 @@
 # zpid
 
 This project involves the development of two discrete controllers programmed in a PIC microcontroller, one based on the Professional PID algorithm and the other on a fuzzy controller with PID structure. These two controllers are capable of regulating various processes by varying their parameters. To achieve this, a data acquisition system has been programmed that allows configuration of the controllers and monitoring of the behavior of the system to be controlled through serial port communication. The process chosen to test the operation of both controllers is a direct current motor, whose speed is satisfactorily regulated in response to changes in reference and load. This allows us to conclude that the selection of both algorithms, as well as the use of a microcontroller that fulfills the function of regulator for various processes, is justified.
+
+An article about this project can be seen (in Spanish) in ResearchGate: https://www.researchgate.net/publication/273439309_Diseno_e_implementacion_de_un_PID_Profesional_y_un_PID_Difuso_utilizando_un_microcontrolador_PIC18F4550
